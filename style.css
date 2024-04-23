@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 36, 36);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+} 
+
+h1{
+    color: white;
+}
+
+.enterNotes{
+    width: 600px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 2px;
+    padding: 0 10px 0 10px;
+}
+
+.btnAdd{
+    width: 600px;
+    height: 30px;
+    border-width: 1px;
+    border-color: violet;
+    color: violet;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    background: none;
+}
+
+h3{
+    margin-right: auto;
+}
+
+.result{
+    background-color: white;
+    width: 600px;
+    height: 80px;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
